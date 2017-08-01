@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Mobile Specific Meta -->
+    <meta name="keywords" content="accessibility, tab to skip navigation, tab to nav, tab to main content">
+    <meta name="description" content="accessibility - Tab to skip navigation">
+
+        
+  <title>Accessibility- Tab to skip Navigation</title>
+        
+  <link rel="stylesheet" href="style.css">
+        
+  </head>
+
+  <body>
+
+    <a class="screen-reader screen-reader-focusable" href="#nav">Go to Menu</a>
+    <a class="screen-reader screen-reader-focusable" href="#main">Skip to the main content</a>
+    <a class="screen-reader screen-reader-focusable" href="mailto:timur.ochakovsky@gmail.com">Accessibility Feedback</a>
+
+    <nav id="nav">
+      <button class="button" role="button"> Nav Link #1 </button>
+      <button class="button" role="button"> Nav Link #2 </button>
+      <button class="button" role="button"> Nav Link #3 </button>
+      <button class="button" role="button"> Nav Link #4 </button>
+      <button class="button" role="button"> Nav Link #5 </button>
+    </nav>
+
+    <main class="tabindex" id="main" tabindex="-1">
+        <ul>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content <a href="#">link</a></li>
+            <li>Content <a href="#">link</a></li>
+            <li>Content</li>
+            <li>Content <a href="#">link</a></li>
+            <li>Content</li>
+            <li>Content <a href="#">link</a></li>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content <a href="#">link</a></li>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content <a href="#">link</a></li>
+            <li>Content</li>
+            <li>Content <a href="#">link</a></li>
+            <li>Content</li>
+        </ul>
+    </main>
+    <footer id="footer">
+      <button class="button" role="button"> Footer Link #1 </button>
+      <button class="button" role="button"> Footer Link #2 </button>
+      <button class="button" role="button"> Footer Link #3 </button>
+      <button class="button" role="button"> Footer Link #4 </button>
+      <button class="button" role="button"> Footer Link #5 </button>
+    </footer>
+  </body>
+</html>
